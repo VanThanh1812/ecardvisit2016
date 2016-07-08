@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "77076786093",
+    "firebase_url": "https://ecardvisit-b1a54.firebaseio.com",
+    "project_id": "ecardvisit-b1a54",
+    "storage_bucket": "ecardvisit-b1a54.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:77076786093:android:6474d6b8541389f6",
+        "android_client_info": {
+          "package_name": "com.example.vanthanh.demo_ecard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "77076786093-n39rupa7j269mhqsvh9vs1fefcb6lpu7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKG7FZBNhrj3nXqIJZk5E8IynAlT5vHO8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:77076786093:android:f3c420faa11666b1",
+        "android_client_info": {
+          "package_name": "com.example.vanthanh.ecard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "77076786093-n39rupa7j269mhqsvh9vs1fefcb6lpu7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKG7FZBNhrj3nXqIJZk5E8IynAlT5vHO8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

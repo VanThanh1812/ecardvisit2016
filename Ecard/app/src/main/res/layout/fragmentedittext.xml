@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_marginTop="0dp"
+    android:background="@color/font"
+    android:layout_width="match_parent"
+    android:layout_height="450dp">
+
+    <EditText
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:scrollbars="horizontal"
+        android:id="@+id/edtID"
+        android:hint="Nhap ID"/>
+    <LinearLayout
+        android:weightSum="2"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_marginLeft="12dp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Click chọn logo công ty"
+            android:onClick="ChooseImageCongty"
+            android:id="@+id/txtLinkAva" />
+
+        <ImageView
+            android:layout_weight="0.5"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:background="@drawable/iconperson"
+            android:id="@+id/imgAvaCongty"/>
+    </LinearLayout>
+    <LinearLayout
+        android:weightSum="1.5"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_marginLeft="12dp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Click chọn ảnh nền card"
+            android:onClick="ChooseImageCongty"
+            android:id="@+id/txtLinkCongty" />
+
+        <ImageView
+            android:layout_weight="0.5"
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:background="@drawable/iconperson"
+            android:id="@+id/imgBackground"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nhập tên"/>
+        <EditText
+            android:layout_marginLeft="5dp"
+            android:scrollbars="horizontal"
+            android:textSize="12dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/edtName" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chức vụ"/>
+        <EditText
+            android:layout_marginLeft="5dp"
+            android:scrollbars="horizontal"
+            android:textSize="12dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/edtChucvu"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Số điện thoại"/>
+        <EditText
+            android:layout_marginLeft="5dp"
+            android:scrollbars="horizontal"
+            android:textSize="12dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/edtSdt" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Địa chỉ"/>
+        <EditText
+            android:layout_marginLeft="5dp"
+            android:scrollbars="horizontal"
+            android:textSize="12dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/edtDiachi" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"/>
+        <EditText
+            android:layout_marginLeft="5dp"
+            android:scrollbars="horizontal"
+            android:textSize="12dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/edtEmail" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Công ty"/>
+        <EditText
+            android:layout_marginLeft="5dp"
+            android:scrollbars="horizontal"
+            android:textSize="12dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/edtCongty" />
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnPreview"
+        android:textColor="@color/text"
+        android:text="Preview"
+        android:background="@drawable/font"
+        android:layout_gravity="center"/>
+</LinearLayout>

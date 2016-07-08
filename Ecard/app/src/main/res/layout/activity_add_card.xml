@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:id="@+id/actyAddcard"
+    android:background="@color/font"
+    android:orientation="vertical"
+    tools:context="com.example.vanthanh.ecard.Activity.AddCard">
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Key: .................."
+        android:gravity="center"
+        android:textColor="@color/text"
+        android:background="@drawable/font"
+        android:id="@+id/txtKey"
+        android:layout_gravity="center_horizontal" />
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/li_card">
+    <fragment
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:tag="CARD"
+        android:name="com.example.vanthanh.ecard.Fragment.fragment_card"
+        tools:layout="@layout/fragmentcard" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add card to list your card"
+        android:id="@+id/btnAddtoList"
+        android:background="@drawable/font"
+        android:textColor="@color/text"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:onClick="Cancel"
+        android:textColor="@color/text"
+        android:background="@drawable/font"
+        android:id="@+id/button2"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>
