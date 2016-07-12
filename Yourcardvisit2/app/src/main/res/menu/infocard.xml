@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_hoten"
+        android:title="Họ tên"/>
+    <item
+        android:id="@+id/item_congty"
+        android:title="Công ty"/>
+    <item
+        android:id="@+id/item_chucvu"
+        android:title="Chức vụ"/>
+    <item
+        android:id="@+id/item_email"
+        android:title="Email"/>
+    <item
+        android:id="@+id/item_sodienthoai"
+        android:title="Số điện thoại"/>
+    <item
+        android:id="@+id/item_diachi"
+        android:title="Địa chỉ"/>
+</menu>

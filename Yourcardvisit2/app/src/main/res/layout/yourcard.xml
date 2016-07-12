@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:layout_width="355.96dp"
+        android:layout_height="220dp"
+        android:background="@drawable/card"
+        android:id="@+id/yourcard">
+
+
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ID"
+            android:id="@+id/textView" />
+        <ImageView
+            android:layout_marginLeft="240dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@android:drawable/sym_def_app_icon"
+            android:id="@+id/imgCongty"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Họ và tên"
+            android:id="@+id/textView2" />
+
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Công ty"
+            android:id="@+id/textView3" />
+
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Chức vụ"
+            android:id="@+id/textView4" />
+
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Email"
+            android:id="@+id/textView5" />
+
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Địa chỉ"
+            android:id="@+id/textView6" />
+
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Số điện thoại"
+            android:id="@+id/textView7" />
+    </LinearLayout>
+</LinearLayout>

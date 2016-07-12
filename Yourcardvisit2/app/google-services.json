@@ -1,0 +1,104 @@
+{
+  "project_info": {
+    "project_number": "854989175960",
+    "firebase_url": "https://yourcardvisit.firebaseio.com",
+    "project_id": "yourcardvisit",
+    "storage_bucket": "yourcardvisit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:854989175960:android:d4a7c06ce1365ca5",
+        "android_client_info": {
+          "package_name": "com.example.vanthanh.yourcardvisit.fragment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "854989175960-44bg9teaequt0ncsuejpe24bjlctptuh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvcb3KGtfvQOvkzlDppu7ZEitzbNFZVao"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:854989175960:android:5b4a716135de8819",
+        "android_client_info": {
+          "package_name": "com.example.vanthanh.yourcardvisit.activity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "854989175960-44bg9teaequt0ncsuejpe24bjlctptuh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvcb3KGtfvQOvkzlDppu7ZEitzbNFZVao"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:854989175960:android:bd1e9c23b68d9c06",
+        "android_client_info": {
+          "package_name": "com.example.vanthanh.yourcardvisit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "854989175960-44bg9teaequt0ncsuejpe24bjlctptuh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvcb3KGtfvQOvkzlDppu7ZEitzbNFZVao"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

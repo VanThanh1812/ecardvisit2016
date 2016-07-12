@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.h6ah4i.android.materialshadowninepatch.MaterialShadowContainerView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        style="@style/ms9_DefaultShadowStyle"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/shadow_item_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:ms9_shadowTranslationZ="10dp"
+        app:ms9_shadowElevation="5dp">
+
+        <!-- NOTE 1: only 1 child can be accepted -->
+        <!-- NOTE 2: margins are required to draw shadow properly -->
+        <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_width="355.96dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card"
+            android:id="@+id/yourcard">
+            <ImageView
+                android:layout_marginLeft="240dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@android:drawable/sym_def_app_icon"
+                android:id="@+id/imgLogo"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:layout_marginLeft="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Họ và tên"
+                android:id="@+id/txtHoTen" />
+
+            <TextView
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Công ty"
+                android:id="@+id/txtCongty" />
+
+            <TextView
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Chức vụ"
+                android:id="@+id/txtChucvu" />
+
+            <TextView
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Email"
+                android:id="@+id/txtEmail" />
+
+            <TextView
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Địa chỉ"
+                android:id="@+id/txtDiachi" />
+
+            <TextView
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Số điện thoại"
+                android:id="@+id/txtSodienthoai" />
+        </LinearLayout>
+    </com.h6ah4i.android.materialshadowninepatch.MaterialShadowContainerView>
+
+    <Button
+        android:background="@drawable/font"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:text="Create card"
+        android:textColor="@color/textwhile"
+        android:id="@+id/btnCreate"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
